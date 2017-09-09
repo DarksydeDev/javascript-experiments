@@ -13,11 +13,16 @@ var anonymousGreet = function() {
 }
 
 function log(a) {
-	console.log(a);
+	// console.log(a);
+	a();
 }
 
-log(3);
-log("hello");
-log({
-	country: 'test'
-})
+// log(3);
+// log("hello");
+// log({
+// 	country: 'test'
+// });
+
+log(function () {
+	console.log('hi');
+});

@@ -4,7 +4,7 @@ function b() {
 
 function a() {
 	function c() {
-		console.log(myVar)
+		console.log(myVar);
 	}
 	var myVar = 2;
 	b();
@@ -14,3 +14,5 @@ function a() {
 var myVar = 1;
 
 a();
+
+console.log('hello world!');

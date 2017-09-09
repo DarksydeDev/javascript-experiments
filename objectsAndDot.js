@@ -8,3 +8,5 @@ person["lastname"] = "Recio";
 
 console.log(person["firstname"]);
 console.log(person.firstname);
+
+
