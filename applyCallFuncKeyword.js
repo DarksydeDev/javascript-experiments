@@ -41,6 +41,3 @@ var person2 = {
 
 console.log(person.getFullName.apply(person2));
 
-
-
-
